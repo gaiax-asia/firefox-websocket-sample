@@ -1,0 +1,58 @@
+.ping_page-mark {
+  background-color: #7DF9FF;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 150px 2em #7DF9FF;
+  -moz-box-shadow: 0 0 150px 2em #7DF9FF;
+  box-shadow: 0 0 150px 2em #7DF9FF;
+  position: absolute;
+  z-index: 99999999;
+  -webkit-animation: glowThis 1s infinite;
+  -moz-animation: glowThis 1s infinite;
+  animation: glowThis 1s infinite;
+  pointer-events: none;
+}
+
+@-moz-keyframes glowThis {
+  0% {
+    background-color: #45BEC4;
+    -moz-box-shadow: 0 0 150px 2em #ccc;
+  }
+  50% {
+    background-color: #7DF9FF;
+    -moz-box-shadow: 0 0 150px 2em #7DF9FF;
+  }
+  100% {
+    background-color: #45BEC4;
+    -moz-box-shadow: 0 0 150px 2em #ccc;
+  }
+}
+
+@-webkit-keyframes glowThis {
+  0% {
+    background-color: #45BEC4;
+    -webkit-box-shadow: 0 0 150px 2em #ccc;
+  }
+  50% {
+    background-color: #7DF9FF;
+    -webkit-box-shadow: 0 0 150px 2em #7DF9FF;
+  }
+  100% {
+    background-color: #45BEC4;
+    -webkit-box-shadow: 0 0 150px 2em #ccc;
+  }
+}
+
+@keyframes glowThis {
+  0% {
+    background-color: #45BEC4;
+    box-shadow: 0 0 150px 2em #ccc;
+  }
+  50% {
+    background-color: #7DF9FF;
+    box-shadow: 0 0 150px 2em #7DF9FF;
+  }
+  100% {
+    background-color: #45BEC4;
+    box-shadow: 0 0 150px 2em #ccc;
+  }
+}
